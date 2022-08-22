@@ -1,0 +1,475 @@
+/*Leaked  by rolex & miro*/
+.inventory-container {
+    display: none;
+    border-radius: 15px 15px 5px 5px;
+    position: relative;
+    background: #131313b3;
+    width: 545px;
+    height: 716px;
+    margin: 0 auto;
+    top: 26px;
+    -webkit-box-shadow: 5px 5px 20px 0px #646464;
+    box-shadow: 5px 5px 20px 0px #646464;
+}
+.inventory-head {
+    border-bottom: 2px solid #444444ba;
+    border-radius: 15px 15px 0px 0px;
+    background: #ffa500b0;
+    display: flex;
+    padding: 20px 5px;
+}
+.inventory-second-head {
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub-cont-number {
+    margin: 15px auto;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #8e5c00;
+    position: relative;
+    display: inline-block;
+    text-align: center !important;
+    line-height: 50px;
+    vertical-align: middle;
+    color: #848484;
+    word-wrap: break-word;
+    white-space: pre-line;
+    overflow: hidden;
+    font-size: 24px;
+    -moz-appearance: textfield;
+}
+.inventory-footer {
+    margin-top: 5px;
+    text-align: center;
+    border-top: 2px solid #444444ba;
+}
+.inv-head-btn {
+    border-radius: 50px 0px 0px 10px;
+    position: relative;
+    float: right;
+    display: inline-block;
+    width: 400px;
+    height: 64px;
+    text-align: right;
+    margin-right: 45px;
+    background: #000000d6;
+    right: -50px;
+}
+.inv-head-btn p {
+    margin-right: 15px;
+    position: relative;
+    left: 1px;
+    color: #dedede;
+    font-size: 22px;
+    bottom: 2px;
+}.inventory-amount {
+     height: 83px;
+ }
+.inventory-actions {
+    height: 50px;
+}
+.pointed-cursor {
+    cursor: pointer;
+}
+
+.actions-block {
+    display: none;
+    margin-top: -80px;
+}
+.forceDisplay {
+    display: block !important;
+}
+
+/*alles hierunter ist alter bullshit der vllt noch wichtig ist kp xd*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+}
+/*
+body {
+    background: url("https://i.ytimg.com/vi/7aBR0kYkhVY/maxresdefault.jpg");
+    background-size: cover;
+}*/
+.container {
+    /*display: none*/;
+    background-color: #1d1d1db3;
+    position: relative;
+    height: 540px;
+    width: 600px;
+    margin: auto;
+    top: 100px;
+}
+
+.container2 {
+
+    background-color: #1d1d1db3;
+    position: relative;
+    height: 540px;
+    width: 600px;
+    margin: auto;
+    top: 50px;
+}
+
+.head {
+    width: 100%;
+    height: 30px;
+
+}
+
+.inv-label {
+    position: relative;
+    left: 50px;
+    font-size: 32px;
+    bottom: 10px;
+    display: inline-block;
+    color: #000000;
+}
+
+.logo {
+    margin-left: 44px;
+}
+
+
+
+.inv-item-name {
+    float: left;
+    display: inline-block;
+	top: -472px;
+	left: 735px;
+}
+
+
+.inv-head-btn2 {
+    position: relative;
+    float: right;
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    top: 15px;
+}
+
+
+
+#refresh {
+    background-color: #c40300;
+}
+
+.inv-cont {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 375px;
+    overflow-y: scroll;
+}
+
+.inv-cont2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 375px;
+    top: 20px;
+    overflow: scroll;
+}
+
+.inv-cont-elem {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    background-color: #52525240;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    -webkit-box-shadow: inset 1px 0px 26px -21px rgba(0,0,0,1);
+    -moz-box-shadow: inset 1px 0px 26px -21px rgba(0,0,0,1);
+    box-shadow: inset 1px 0px 26px -21px rgba(0,0,0,1);
+}
+.inv-cont-elem:hover {
+    background-color: #94949478;
+    cursor: pointer;
+}
+box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.116);
+.inv-cont-elem2 {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.116);
+}
+
+.inv-close {
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+.inv-close2 {
+    position: relative;
+    left: 40px;
+    top: 50px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 55px;
+    width: 80px;
+    text-align: center;
+}
+
+.selected {
+    background-color: rgb(255 153 0 / 47%);
+}
+
+.selected2 {
+    outline: 3px dashed rgb(177, 177, 177);
+    outline-offset: -3px;
+}
+
+.sub-container {
+    /*display: none*/;
+    position: relative;
+    width: 600px;
+    height: 40px;
+    background-color: #1d1d1db3;
+    margin: auto;
+    top: 40px;
+}
+
+.sub-container2 {
+    /*display: none*/;
+    position: relative;
+    width: 600px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    top: 49px;
+}
+
+.sub-containerhead {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    display: inline-block;
+}
+
+.sub-containerhead2 {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 11px 11px 0 0;
+    display: inline-block;
+ }
+ 
+
+.sub-container-actions {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    top: -8px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 10px;
+    float: left;
+    display: inline-block;
+}
+
+.sub-container-actions2 {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 10px;
+    float: left;
+    display: inline-block;
+}
+
+.sub-container-actions-elem1 {
+    position: relative;
+    width: 130px;
+    height: 30px;
+    margin: 10px;
+    font-size: 17px;
+    color: #dedede;
+    background-color: #c34545;
+    display: inline-block;
+    bottom: 100px;
+    top: 0px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    -moz-box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.sub-container-actions-elem2 {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    margin: 5px;
+    font-size: 20px;
+    color: #dedede;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    bottom: 100px;
+    top: 0px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    -moz-box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.sub-container-actions-elem2 {
+    position: relative;
+    width: 130px;
+    height: 30px;
+    margin: 5px;
+    font-size: 17px;
+    color: #dedede;
+    background-color: transparent;
+    display: inline-block;
+    bottom: 100px;
+    top: 0px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    -moz-box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    border: 1px solid #3a3a3a;
+}
+.sub-container-actions-elem3 {
+    position: relative;
+    width: 130px;
+    height: 30px;
+    margin: 5px;
+    font-size: 17px;
+    color: #dedede;
+    background-color: #4c864c;
+    display: inline-block;
+    bottom: 100px;
+    top: 0px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    -moz-box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+.sub-container-actions-elem4 {
+    position: relative;
+    width: 180px;
+    height: 30px;
+    margin: 5px;
+    font-size: 17px;
+    color: #7d7d7d;
+    display: inline-block;
+    bottom: 100px;
+    top: 15px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    -moz-box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+    box-shadow: inset 1px 0px 26px -22px rgba(0,0,0,1);
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #131313b3;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffa500;
+    border-radius: 20px;
+    -webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+}
+
+
+.nobr { white-space: nowrap }
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }
+
+/*New Stuff*/
+
+.amount-container {
+    text-align: center;
+    position: relative;
+    height: 60px;
+    width: 600px;
+    margin: auto;
+    top: 60px;
+}
+
+.sub-container-end {
+    /*display: none*/;
+    background: #1d1d1db3;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    top: -37px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    display: inline-block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
